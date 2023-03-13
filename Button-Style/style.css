@@ -1,0 +1,26 @@
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #ffeeee, #ddefbb); 
+}
+button{
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    margin: 5px;
+    text-transform: uppercase;
+    background-color: rgb(243, 16, 16);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1.0s ease;
+      
+}
+button:hover{
+    background-color: rgba(88, 175, 7, 0.788);
+    transition: color 1.1s ease;
+    color: rgb(0, 0, 0);
+}
+
